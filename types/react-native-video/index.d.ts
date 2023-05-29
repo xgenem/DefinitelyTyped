@@ -242,4 +242,5 @@ export default class Video extends React.Component<VideoProperties> {
     restoreUserInterfaceForPictureInPictureStopCompleted(restored: boolean): void;
     save(): Promise<void>;
     seek(time: number, tolerance?: number): void;
+    setNativeProps(nativeProps: any): void;
 }
